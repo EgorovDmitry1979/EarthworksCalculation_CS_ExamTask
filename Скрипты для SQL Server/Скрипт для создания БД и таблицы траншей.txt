@@ -1,0 +1,13 @@
+CREATE DATABASE СableLines
+GO
+
+CREATE TABLE Excavation
+(
+TrenchId bigint IDENTITY (1,1) PRIMARY KEY NOT NULL,
+TrenchType varchar(5) NOT NULL,
+TrenchDepth varchar(5) NOT NULL,
+TrenchWidth varchar(5) NOT NULL,
+SandFilling varchar(5) NOT NULL,
+SandBackfilling varchar(5) NOT NULL
+)
+GO
